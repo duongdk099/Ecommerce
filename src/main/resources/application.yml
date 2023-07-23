@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/ecommerce?currentSchema=ecommerce
+    username: postgres
+    password: password
+    hikari:
+      pool-name: hikari
+      auto-commit: false
+
+  security:
+    user:
+      name: admin
+      password: admin
+
